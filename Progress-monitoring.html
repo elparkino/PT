@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Progress Monitoring with STAAR Test Maker Software</title>
+<meta name="Description" content="FCAT Progress monitoring tool developed to improve where students are failing. Create FCAT practice Test in minutes.">
+<meta name="Keywords" content="progress monitoring, Fcat practice test, science, math, reading, writing,">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="functions/jquery1.6.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+		
+	$(document).ready(function() {
+	// Collapse everything but the first menu:
+	$("ul#quickMenu > li > a").addClass('active').slideDown('show');
+	// Expand or collapse:
+	$("ul#quickMenu > li > a").hover(function() {
+		if ($(this).next('ul#child').hasClass('active') !=true)
+		{
+			$('ul#child.active').slideUp('slow').removeClass('active');
+				$(this).next('ul#child').addClass('active').slideDown('show');
+			}
+	});
+	
+	
+	
+	
+	
+	// Collapse everything but the first menu:
+	//$("ul#quickMenu > li > a").not(":first").find("+ ul").slideUp(1);
+	// Expand or collapse:
+	//$("ul#quickMenu > li > a ").click(function() {
+		//$(this).find("+ ul").slideToggle("fast");
+	//});
+
+	
+	
+});
+
+</script>
+
+</head>
+
+<body>
+
+
+
+<!--start container-->
+<div id="container">
+	<!--start header-->
+	<div id="header">
+		<div class="logo">
+			<p><a href="index.html"><img src="images/STAAR-Test-Maker.png" alt="Star Test Maker" /></a></p>
+		</div>
+        <div class="right">
+		<div class="contact-numbers-box">
+        <img src="images/phone.jpg" alt="Phone No" /><span class="contact-numbers" id="phone">800-930-8378</span>
+        <img src="images/fax.png"  alt="Fax No"/><span class="contact-numbers" id="fax">352-336-3782 </span>
+        </div> 
+      </div>
+    <div class="clr"></div>    
+	</div>
+    <!--end header-->
+    <div class="clr"></div>
+    <div id="navigation">
+    	<span class="l-c"></span>
+       	<span class="r-c"></span>
+
+        <ul id="menu">
+            <li class="home"><a href="index.html"><img src="images/home-icon.png" alt="home" /></a></li>
+            <li><a href="how-it-works.html" class="active">How Does it Work?</a></li> 
+            <li><a href="STAAR-Item-bank.html">Our Item Bank</a><span class="seprator"></span></li>
+            <li><a href="sample.html">Get a Sample Test</a><span class="seprator"></span></li>
+            <li><a href="pricing.html">Pricing&nbsp;&&nbsp;Ordering</a><span class="seprator"></span></li>
+            <li><a href="Support-FAQ.html">Support/FAQ</a><span class="seprator"></span></li>
+            <li><a href="contact.html">Contact&nbsp;Us</a></li>
+        </ul>
+        
+    <div class="clr"></div>    
+    </div>
+    <div class="clr"></div>
+    <!--start content-->
+<div id="content">
+    
+    	<!--start left bar-->
+    	<div id="leftBar">
+    	  <!--start quick links-->
+    	  <div class="quickLinks">
+    	    <div class="quickTop">
+    	      <h1>More Information</h1>
+  	      </div>
+    	    <div class="quickList">
+    	      <ul id="quickMenu">
+    	        <li><a href="pricing.html">How to Order</a>
+    	          <ul id="child">
+  	            </ul>
+  	          </li>
+    	        <li><a href="http://www.fcattestmaker.com/forum/viewforum.php?f=10&amp;sid=ca85b8dac4dfae921a5c77d528b1cec6">Forum</a>
+    	          <ul id="child">
+  	              </ul>
+  	          </li>
+    	        <li><a href="http://www.staartestmaker.com/blog/">Blog</a>
+    	          <ul id="child">
+  	            </ul>
+  	          </li>
+    	        <li><a href="/">Teacher Resources</a>
+    	          <ul id="child">
+    	            <li><a href="/">- Reading</a></li>
+    	            <li><a href="/">- Math</a></li>
+  	            </ul>
+  	          </li>
+    	        <li><a href="STAAR-Item-bank.html">Our Item Bank</a>
+    	          <ul id="child">
+    	            <li><a href="STAAR-Question-Types.html">- Question Types</a></li>
+    	            <li><a href="STAAR-Reading.html">- Reading</a></li>
+    	            <li><a href="STAAR-Math.html">- Math</a></li>
+    	            <li><a href="STAAR-Writing.html">- Writing</a></li>
+    	            <li><a href="STAAR-Science.html">- Science</a></li>
+    	            <li><a href="STAAR-EOC.html">- EOCs</a></li>
+  	            </ul>
+  	          </li>
+    	        <li><a href="Careers.html">Careers</a>
+    	          <ul id="child">
+  	            </ul>
+  	          </li>
+    	        <li><a href="Requirements.html">System Req/Tech Specs</a>
+    	          <ul id="child">
+  	            </ul>
+  	          </li>
+    	        <li><a href="Scanner-info.html">Scanner Info</a>
+    	          <ul id="child">
+  	            </ul>
+  	          </li>
+  	        </ul>
+    	      <div class="clr"></div>
+  	      </div>
+    	    <div class="clr"><a href="STAAR-Demo/STAAR-Demo.html"><img src="images/View-a-demo.jpg" alt="FCAT Test Maker Demo" width="168" height="159" /></a><a href="FCAT-Demo/FCAT-Demo.html"></a><br />
+  	      </div>
+  	    </div>
+    	  <!--end quick links-->
+    	  <div class="clr"></div>
+  	  </div>
+    	<!--end left bar-->
+        
+        <!--start text area-->
+<div id="textArea">
+        	<div class="Link1" id="Link1"><a href="how-it-works.html"><strong>Stress-Free Test Creation<img src="images/space.jpg" alt="space" width="60" height="25" /></strong></a><img src="images/checkIcon.png" width="26" height="24" alt="Progress Monitoring" /> <a href="Progress-monitoring.html"><strong>Powerful Progress Monitoring</strong></a></div>
+        	<h1>&nbsp;</h1>
+            <div class="video"><img src="images/img.jpg" width="595" height="338" /><br />
+            </div>
+<h1>&nbsp;</h1>
+<h1>Powerful Progress Monitoring</h1>
+<p>In addition to creating realistic STAAR tests, STAAR Test  Maker gives teachers control over their data. The software’s included Progress  Monitor allows teachers to create color-coded reports so they can get the  information they need, fast.</p>
+<h2>Score Your Students’ Work</h2>
+<p>Need to machine-score a test? STAAR Test Maker includes  built-in scanner support. Use the supported Apperson Advantage 1200 scanner and  get the test results you need in minutes. <strong>Learn  more about the Advantage 1200 scanner.</strong></p>
+<h2>Student data, Simplified</h2>
+<p>STAAR Test Maker’s Progress Reporter allows you to see your  formative assessment data in every category you require. Quickly generate  reports as you need them, in categories such as:</p>
+<h3>Student Reports</h3>
+<ul>
+  <li><strong>Test Scores</strong> - List all of the test scores for an individual student. </li>
+  <li><strong>Standard Progress</strong> - Track the student's test-by-test progress by standard. </li>
+  <li><strong>Standard Summary</strong> - Break down the student's performance by standard. </li>
+</ul>
+<h3>Test Reports</h3>
+<ul>
+  <li><strong>Statistics </strong>- Tabulate important test statistics for an entire class.</li>
+  <li><strong>Student  Answers</strong> - List the answers and scores for all students in the entire class  for the selected test, allowing you to compare students' answers against one  another. </li>
+  <li><strong>Item  Analysis</strong> - List how students performed on each question of a specific test,  including common incorrect responses, and list the strand, benchmark, p-value,  and discrimination index for each question on the test. </li>
+  <li><strong>Standard Summary</strong> - Break down the performance by standard for all students in the class.</li>
+  <li><strong>Standard Detail </strong>- See the proficiency levels for students for each standard on a specific  test. Students are grouped by proficiency level for each standard. </li>
+  <li><strong>Scores by  Demographic Group -</strong> Separate the class scores by demographic.</li>
+</ul>
+<h3>Class Reports </h3>
+<ul>
+  <li><strong>Test  Scores – </strong>List the scores of selected tests for each student in a class. </li>
+  <li><strong>Benchmark  Summary -</strong> Detail the performance, by standard, of all students. </li>
+  <li><strong>Standard  Detail -</strong> See the proficiency levels for students for each standard. </li>
+  <li><strong>Standard Progress  -</strong> Track the class's test-by-test progress by standard.</li>
+</ul>
+<h3>Comprehensive Reports – Reports for Two or More  Classes</h3>
+<ul>
+  <li><strong>Test  Scores -</strong> List the selected test scores for two or more classes  side-by-side. </li>
+  <li><strong>Standard Progress  -</strong> Track test-by-test progress on standards. </li>
+  <li><strong>Standard Summary  -</strong> Detail performance by standard. </li>
+  <li><strong>Standard Performance  by Class -</strong> Compare the performance of two or more classes on standards.</li>
+  <li><strong>Standard Detail  -</strong> Detail the proficiency levels that students in the classes are performing  at for each standard. </li>
+  <li><strong>Standard Performance  by School (District version only) -</strong> Compare the performance of two or more  schools.</li>
+</ul>
+<p><strong>To see a live,  interactive Web Demonstration of STAAR Test Maker, call us today at  800-930-8378.</strong></p>
+<div class="clr"></div>    
+    </div>
+<!--end text area-->
+        
+        <!--start right bar-->
+        <div id="rightBar">
+        	<p><a href="sample.html"><img src="images/banner.jpg" alt="img" /></a></p>
+            
+            <!--start school links-->
+            <div class="schoolLinks">
+              <div class="schoolTop">
+                <h1>Our Latest Customers</h1>
+              </div>
+              <div class="schoolList">
+                <ul>
+                  <li><a href="/"> Katy ISD-eduphoria! </a><br />
+                    Katy, TX </li>
+                  <li><a href="/"> Tatum ISD-eduphoria! </a></li>
+                  <li> Tatum, TX </li>
+                  <li><a href="/"> Paducah ISD-eduphoria! </a></li>
+                  <li> Paducah, TX </li>
+                  <li><a href="/"> Idalou ISD-eduphoria! </a></li>
+                  <li> Idalou, TX <a href="/"><br />
+                    Anthony ISD-eduphoria! </a></li>
+                  <li> Anthony, TX </li>
+                  <li><a href="/"> Farmersville HS </a></li>
+                  <li> Farmersville, TX </li>
+                  <li><a href="/"> Floresville ISD-eduphoria! </a></li>
+                  <li> Floresville, TX </li>
+                  <li><a href="/"> Halletsville ISD-eduphoria! </a></li>
+                  <li> Halletsville, TX </li>
+                  <li><a href="/"> Lackland ISD-eduphoria! </a></li>
+                  <li> San Antonio, TX </li>
+                  <li><a href="/"> Amarillo JH </a></li>
+                  <li> Amarillo, TX </li>
+                </ul>
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+            </div>
+            <!--end school links-->
+            
+        <div class="clr"></div>    
+        </div>
+        <!--end right bar-->
+        
+    <div class="clr"></div>    
+    </div>
+    <!--end content-->
+    
+    <!--start footer-->
+<div id="footerTop">
+    	<div class="footerTopLeft">
+        	<h4 class="footerTopLeft">Toll Free: (800) 930-TEST Phone: (352) 336-3780 Fax: (352) 336-3782 Email: Info@ProgressTesting.com</h4>
+</div>
+        <div class="footerTopRight">
+        	<p align="right">Find us on: <a href="http://www.facebook.com/ProgressTesting"><img src="images/fbIcon.jpg" alt="faacebook" /></a><a href="http://twitter.com/#!/fcattestmaker"><img src="images/twIcon.jpg" alt="twitter" /></p>
+        </div>
+    </div>
+    <!--start footer-->
+    
+    <!--start footer-->
+    <div id="footerBottom">
+    	<p>&nbsp;</p>
+    </div>
+    <!--start footer-->
+    
+<div class="clr"></div>    
+</div>
+<!--end container-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1478685-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.fcattestmaker.com/piwik/" : "http://www.fcattestmaker.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://www.fcattestmaker.com/piwik/piwik.php?idsite=2" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</body>
+</html>
